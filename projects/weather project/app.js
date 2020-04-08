@@ -72,7 +72,7 @@ function displayWeather(){
 
 // C to F conversion / this is because the API is in Kelvin not Celsius or Fahrenheit
 function celsiusToFahrenheit(temperature){
-    return (temperature * 9/5) + 32;
+    return (temperature * 9/5) + 30;
 }
 
 // This will trigger the onClick event function to switch from C to F
